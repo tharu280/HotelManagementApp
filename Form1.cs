@@ -45,7 +45,7 @@ namespace Loginpage
         {
             txtname.ResetText();
             txtpass.ResetText();
-            txtname.Focus();
+            txtname.Focus();//clearing and focusing the curser to the name
         }
 
         private void label1_Click_1(object sender, EventArgs e)
