@@ -39,6 +39,7 @@ namespace Loginpage
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
+            this.splitter1 = new System.Windows.Forms.Splitter();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
             this.SuspendLayout();
@@ -48,7 +49,7 @@ namespace Loginpage
             this.lbllogin.AutoSize = true;
             this.lbllogin.BackColor = System.Drawing.Color.Transparent;
             this.lbllogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 27.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllogin.ForeColor = System.Drawing.SystemColors.Control;
+            this.lbllogin.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
             this.lbllogin.Location = new System.Drawing.Point(522, 36);
             this.lbllogin.Name = "lbllogin";
             this.lbllogin.Size = new System.Drawing.Size(137, 42);
@@ -78,7 +79,7 @@ namespace Loginpage
             // 
             // btnlogin
             // 
-            this.btnlogin.BackColor = System.Drawing.Color.MediumPurple;
+            this.btnlogin.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogin.ForeColor = System.Drawing.Color.GhostWhite;
             this.btnlogin.Location = new System.Drawing.Point(460, 222);
@@ -94,8 +95,8 @@ namespace Loginpage
             this.labclear.AutoSize = true;
             this.labclear.BackColor = System.Drawing.Color.Transparent;
             this.labclear.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labclear.ForeColor = System.Drawing.SystemColors.InactiveBorder;
-            this.labclear.Location = new System.Drawing.Point(542, 277);
+            this.labclear.ForeColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.labclear.Location = new System.Drawing.Point(541, 275);
             this.labclear.Name = "labclear";
             this.labclear.Size = new System.Drawing.Size(83, 24);
             this.labclear.TabIndex = 7;
@@ -124,9 +125,9 @@ namespace Loginpage
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.label1.Location = new System.Drawing.Point(437, 408);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(308, 20);
+            this.label1.Size = new System.Drawing.Size(273, 20);
             this.label1.TabIndex = 10;
-            this.label1.Text = "FYI username; tharushika,password ;1111";
+            this.label1.Text = "FYI username; nsbm,password ;1111";
             this.label1.Click += new System.EventHandler(this.label1_Click_1);
             // 
             // label2
@@ -152,13 +153,23 @@ namespace Loginpage
             this.label3.Text = "password";
             this.label3.Click += new System.EventHandler(this.label3_Click);
             // 
+            // splitter1
+            // 
+            this.splitter1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(5)))), ((int)(((byte)(22)))), ((int)(((byte)(34)))));
+            this.splitter1.Location = new System.Drawing.Point(0, 0);
+            this.splitter1.Name = "splitter1";
+            this.splitter1.Size = new System.Drawing.Size(399, 450);
+            this.splitter1.TabIndex = 13;
+            this.splitter1.TabStop = false;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.BackgroundImage = global::Loginpage.Properties.Resources.Flat_colorful_background;
+            this.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(162)))), ((int)(((byte)(169)))));
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Center;
-            this.ClientSize = new System.Drawing.Size(800, 450);
+            this.ClientSize = new System.Drawing.Size(799, 450);
+            this.Controls.Add(this.splitter1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -169,8 +180,9 @@ namespace Loginpage
             this.Controls.Add(this.pictureBox1);
             this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.lbllogin);
+            this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form1";
-            this.Text = "Form1";
+            this.Text = "login";
             this.Load += new System.EventHandler(this.Form1_Load);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
@@ -190,6 +202,7 @@ namespace Loginpage
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Splitter splitter1;
     }
 }
 

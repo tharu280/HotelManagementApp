@@ -29,7 +29,7 @@ namespace Loginpage
 
         private void btnlogin_Click(object sender, EventArgs e)
         {
-            if (txtname.Text == "tharushika" && txtpass.Text == "1111")
+            if (txtname.Text == "nsbm" && txtpass.Text == "1111")
             {
                 new Form2().Show();
                 this.Hide();
