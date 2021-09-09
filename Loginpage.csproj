@@ -73,6 +73,12 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
+    <Compile Include="Form3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form3.Designer.cs">
+      <DependentUpon>Form3.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="Form1.resx">
@@ -151,6 +157,21 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\blackandwhitephoto4 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\93-930064_15-excellent-hd-gradient-wallpapers-data-src.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blue-blur-29047-1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\silver-glow-29587-1920x1080.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray-dark-gradation-blur-wallpaper-preview.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\gray-dark-gradation-blur-wallpaper-preview1.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

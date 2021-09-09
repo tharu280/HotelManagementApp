@@ -83,6 +83,16 @@ namespace Loginpage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _93_930064_15_excellent_hd_gradient_wallpapers_data_src {
+            get {
+                object obj = ResourceManager.GetObject("93-930064_15-excellent-hd-gradient-wallpapers-data-src", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _966_9665493_my_profile_icon_blank_profile_image_circle {
             get {
                 object obj = ResourceManager.GetObject("966-9665493_my-profile-icon-blank-profile-image-circle", resourceCulture);
@@ -133,9 +143,39 @@ namespace Loginpage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blue_blur_29047_1920x1080 {
+            get {
+                object obj = ResourceManager.GetObject("blue-blur-29047-1920x1080", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Flat_colorful_background {
             get {
                 object obj = ResourceManager.GetObject("Flat_colorful_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gray_dark_gradation_blur_wallpaper_preview {
+            get {
+                object obj = ResourceManager.GetObject("gray-dark-gradation-blur-wallpaper-preview", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap gray_dark_gradation_blur_wallpaper_preview1 {
+            get {
+                object obj = ResourceManager.GetObject("gray-dark-gradation-blur-wallpaper-preview1", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
@@ -168,6 +208,16 @@ namespace Loginpage.Properties {
             get {
                 object obj = ResourceManager.GetObject("png-clipart-computer-icons-password-login-user-padlock-miscellaneous-christianity" +
                         "", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap silver_glow_29587_1920x1080 {
+            get {
+                object obj = ResourceManager.GetObject("silver-glow-29587-1920x1080", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

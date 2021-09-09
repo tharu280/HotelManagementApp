@@ -39,7 +39,7 @@ namespace Loginpage
             // 
             // panel1
             // 
-            this.panel1.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(125)))), ((int)(((byte)(162)))), ((int)(((byte)(169)))));
+            this.panel1.BackColor = System.Drawing.Color.White;
             this.panel1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.panel1.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
             this.panel1.Controls.Add(this.btnlogout);
@@ -61,7 +61,7 @@ namespace Loginpage
             this.btnlogout.ForeColor = System.Drawing.Color.White;
             this.btnlogout.Location = new System.Drawing.Point(26, 267);
             this.btnlogout.Name = "btnlogout";
-            this.btnlogout.Size = new System.Drawing.Size(151, 31);
+            this.btnlogout.Size = new System.Drawing.Size(172, 31);
             this.btnlogout.TabIndex = 3;
             this.btnlogout.Text = "Logout";
             this.btnlogout.UseVisualStyleBackColor = false;
@@ -75,7 +75,7 @@ namespace Loginpage
             this.btnupdate.ForeColor = System.Drawing.Color.White;
             this.btnupdate.Location = new System.Drawing.Point(26, 215);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(151, 31);
+            this.btnupdate.Size = new System.Drawing.Size(172, 31);
             this.btnupdate.TabIndex = 2;
             this.btnupdate.Text = "Update Client info";
             this.btnupdate.UseVisualStyleBackColor = false;
@@ -89,7 +89,7 @@ namespace Loginpage
             this.btncheckout.ForeColor = System.Drawing.Color.White;
             this.btncheckout.Location = new System.Drawing.Point(26, 156);
             this.btncheckout.Name = "btncheckout";
-            this.btncheckout.Size = new System.Drawing.Size(151, 31);
+            this.btncheckout.Size = new System.Drawing.Size(172, 31);
             this.btncheckout.TabIndex = 1;
             this.btncheckout.Text = "Client check out";
             this.btncheckout.UseVisualStyleBackColor = false;
@@ -103,7 +103,7 @@ namespace Loginpage
             this.btncheckin.ForeColor = System.Drawing.Color.White;
             this.btncheckin.Location = new System.Drawing.Point(26, 100);
             this.btncheckin.Name = "btncheckin";
-            this.btncheckin.Size = new System.Drawing.Size(151, 31);
+            this.btncheckin.Size = new System.Drawing.Size(172, 31);
             this.btncheckin.TabIndex = 0;
             this.btncheckin.Text = "Client check in";
             this.btncheckin.UseVisualStyleBackColor = false;
