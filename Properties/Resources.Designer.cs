@@ -73,6 +73,16 @@ namespace Loginpage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _375_3757223_free_icon_download_people_avatar_icon_transparent_background {
+            get {
+                object obj = ResourceManager.GetObject("375-3757223_free-icon-download-people-avatar-icon-transparent-background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _966_9665493_my_profile_icon_blank_profile_image_circle {
             get {
                 object obj = ResourceManager.GetObject("966-9665493_my-profile-icon-blank-profile-image-circle", resourceCulture);
@@ -93,9 +103,71 @@ namespace Loginpage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap blackandwhitephoto04 {
+            get {
+                object obj = ResourceManager.GetObject("blackandwhitephoto04", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blackandwhitephoto04_copy {
+            get {
+                object obj = ResourceManager.GetObject("blackandwhitephoto04 copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap blackandwhitephoto4_copy {
+            get {
+                object obj = ResourceManager.GetObject("blackandwhitephoto4 copy", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Flat_colorful_background {
             get {
                 object obj = ResourceManager.GetObject("Flat_colorful_background", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap images {
+            get {
+                object obj = ResourceManager.GetObject("images", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap kisspng_computer_icons_user_account_colombo_filippetti_spa_human_icon_5b5627e1918e86_2727642215323729615962 {
+            get {
+                object obj = ResourceManager.GetObject("kisspng-computer-icons-user-account-colombo-filippetti-spa-human-icon-5b5627e1918" +
+                        "e86.2727642215323729615962", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap png_clipart_computer_icons_password_login_user_padlock_miscellaneous_christianity {
+            get {
+                object obj = ResourceManager.GetObject("png-clipart-computer-icons-password-login-user-padlock-miscellaneous-christianity" +
+                        "", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

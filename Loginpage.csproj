@@ -131,5 +131,26 @@
       <Install>false</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\kisspng-computer-icons-user-account-colombo-filippetti-spa-human-icon-5b5627e1918e86.2727642215323729615962.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\png-clipart-computer-icons-password-login-user-padlock-miscellaneous-christianity.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\375-3757223_free-icon-download-people-avatar-icon-transparent-background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackandwhitephoto04.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackandwhitephoto04 copy.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\blackandwhitephoto4 copy.jpg" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
