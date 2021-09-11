@@ -7,7 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
-
+using System.Data.SqlClient;
 namespace Loginpage
 {
     public partial class Form2 : Form
@@ -49,6 +49,11 @@ namespace Loginpage
         {
             new Clientupdate().Show();
             this.Hide();
+        }
+
+        private void labelstatus_Click(object sender, EventArgs e)
+        {
+           
         }
     }
 }

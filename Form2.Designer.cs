@@ -33,6 +33,8 @@ namespace Loginpage
             this.btncheckout = new System.Windows.Forms.Button();
             this.btnupdate = new System.Windows.Forms.Button();
             this.btnlogout = new System.Windows.Forms.Button();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btncheckin
@@ -43,9 +45,9 @@ namespace Loginpage
             this.btncheckin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btncheckin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncheckin.ForeColor = System.Drawing.Color.White;
-            this.btncheckin.Location = new System.Drawing.Point(85, 87);
+            this.btncheckin.Location = new System.Drawing.Point(44, 154);
             this.btncheckin.Name = "btncheckin";
-            this.btncheckin.Size = new System.Drawing.Size(172, 31);
+            this.btncheckin.Size = new System.Drawing.Size(139, 31);
             this.btncheckin.TabIndex = 0;
             this.btncheckin.Text = "Client check in";
             this.btncheckin.UseVisualStyleBackColor = false;
@@ -59,9 +61,9 @@ namespace Loginpage
             this.btncheckout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btncheckout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncheckout.ForeColor = System.Drawing.Color.White;
-            this.btncheckout.Location = new System.Drawing.Point(85, 133);
+            this.btncheckout.Location = new System.Drawing.Point(44, 247);
             this.btncheckout.Name = "btncheckout";
-            this.btncheckout.Size = new System.Drawing.Size(172, 31);
+            this.btncheckout.Size = new System.Drawing.Size(139, 31);
             this.btncheckout.TabIndex = 1;
             this.btncheckout.Text = "Client check out";
             this.btncheckout.UseVisualStyleBackColor = false;
@@ -75,9 +77,9 @@ namespace Loginpage
             this.btnupdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnupdate.ForeColor = System.Drawing.Color.White;
-            this.btnupdate.Location = new System.Drawing.Point(85, 186);
+            this.btnupdate.Location = new System.Drawing.Point(44, 344);
             this.btnupdate.Name = "btnupdate";
-            this.btnupdate.Size = new System.Drawing.Size(172, 31);
+            this.btnupdate.Size = new System.Drawing.Size(139, 31);
             this.btnupdate.TabIndex = 2;
             this.btnupdate.Text = "Update Client info";
             this.btnupdate.UseVisualStyleBackColor = false;
@@ -85,19 +87,30 @@ namespace Loginpage
             // 
             // btnlogout
             // 
-            this.btnlogout.BackColor = System.Drawing.Color.Indigo;
+            this.btnlogout.BackColor = System.Drawing.Color.DarkOrchid;
             this.btnlogout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogout.FlatAppearance.BorderSize = 0;
             this.btnlogout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnlogout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnlogout.ForeColor = System.Drawing.Color.White;
-            this.btnlogout.Location = new System.Drawing.Point(85, 393);
+            this.btnlogout.Location = new System.Drawing.Point(27, 537);
             this.btnlogout.Name = "btnlogout";
             this.btnlogout.Size = new System.Drawing.Size(172, 31);
             this.btnlogout.TabIndex = 3;
             this.btnlogout.Text = "Logout";
             this.btnlogout.UseVisualStyleBackColor = false;
             this.btnlogout.Click += new System.EventHandler(this.btnlogout_Click);
+            // 
+            // panel1
+            // 
+            this.panel1.Controls.Add(this.btncheckout);
+            this.panel1.Controls.Add(this.btncheckin);
+            this.panel1.Controls.Add(this.btnlogout);
+            this.panel1.Controls.Add(this.btnupdate);
+            this.panel1.Location = new System.Drawing.Point(-23, -46);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(202, 594);
+            this.panel1.TabIndex = 5;
             // 
             // Form2
             // 
@@ -107,13 +120,11 @@ namespace Loginpage
             this.BackgroundImage = global::Loginpage.Properties.Resources._9062;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 529);
-            this.Controls.Add(this.btnlogout);
-            this.Controls.Add(this.btnupdate);
-            this.Controls.Add(this.btncheckin);
-            this.Controls.Add(this.btncheckout);
+            this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.Name = "Form2";
             this.Load += new System.EventHandler(this.Form2_Load);
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -124,5 +135,6 @@ namespace Loginpage
         private System.Windows.Forms.Button btncheckout;
         private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.Button btnlogout;
+        private System.Windows.Forms.Panel panel1;
     }
 }
