@@ -45,8 +45,8 @@ namespace Loginpage
             this.lbllogin.AutoSize = true;
             this.lbllogin.BackColor = System.Drawing.Color.Transparent;
             this.lbllogin.Font = new System.Drawing.Font("Lucida Sans", 36F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.lbllogin.ForeColor = System.Drawing.Color.Black;
-            this.lbllogin.Location = new System.Drawing.Point(96, 35);
+            this.lbllogin.ForeColor = System.Drawing.Color.Indigo;
+            this.lbllogin.Location = new System.Drawing.Point(32, 13);
             this.lbllogin.Name = "lbllogin";
             this.lbllogin.Size = new System.Drawing.Size(176, 55);
             this.lbllogin.TabIndex = 1;
@@ -55,12 +55,12 @@ namespace Loginpage
             // 
             // btnlogin
             // 
-            this.btnlogin.BackColor = System.Drawing.Color.LightGray;
+            this.btnlogin.BackColor = System.Drawing.Color.Indigo;
             this.btnlogin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnlogin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnlogin.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.btnlogin.ForeColor = System.Drawing.Color.Black;
-            this.btnlogin.Location = new System.Drawing.Point(80, 241);
+            this.btnlogin.ForeColor = System.Drawing.Color.White;
+            this.btnlogin.Location = new System.Drawing.Point(10, 240);
             this.btnlogin.Name = "btnlogin";
             this.btnlogin.Size = new System.Drawing.Size(214, 38);
             this.btnlogin.TabIndex = 6;
@@ -73,8 +73,8 @@ namespace Loginpage
             this.labclear.AutoSize = true;
             this.labclear.BackColor = System.Drawing.Color.Transparent;
             this.labclear.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.labclear.ForeColor = System.Drawing.Color.Black;
-            this.labclear.Location = new System.Drawing.Point(135, 299);
+            this.labclear.ForeColor = System.Drawing.Color.Indigo;
+            this.labclear.Location = new System.Drawing.Point(65, 298);
             this.labclear.Name = "labclear";
             this.labclear.Size = new System.Drawing.Size(91, 25);
             this.labclear.TabIndex = 7;
@@ -83,16 +83,18 @@ namespace Loginpage
             // 
             // txtname
             // 
+            this.txtname.BackColor = System.Drawing.Color.Thistle;
             this.txtname.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtname.Location = new System.Drawing.Point(80, 140);
+            this.txtname.Location = new System.Drawing.Point(10, 139);
             this.txtname.Name = "txtname";
             this.txtname.Size = new System.Drawing.Size(214, 20);
             this.txtname.TabIndex = 8;
             // 
             // txtpass
             // 
+            this.txtpass.BackColor = System.Drawing.Color.Thistle;
             this.txtpass.BorderStyle = System.Windows.Forms.BorderStyle.FixedSingle;
-            this.txtpass.Location = new System.Drawing.Point(80, 205);
+            this.txtpass.Location = new System.Drawing.Point(10, 204);
             this.txtpass.Name = "txtpass";
             this.txtpass.Size = new System.Drawing.Size(214, 20);
             this.txtpass.TabIndex = 9;
@@ -102,8 +104,8 @@ namespace Loginpage
             // 
             this.label2.AutoSize = true;
             this.label2.BackColor = System.Drawing.Color.Transparent;
-            this.label2.ForeColor = System.Drawing.Color.White;
-            this.label2.Location = new System.Drawing.Point(77, 124);
+            this.label2.ForeColor = System.Drawing.Color.Indigo;
+            this.label2.Location = new System.Drawing.Point(7, 123);
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(53, 13);
             this.label2.TabIndex = 11;
@@ -113,8 +115,8 @@ namespace Loginpage
             // 
             this.label3.AutoSize = true;
             this.label3.BackColor = System.Drawing.Color.Transparent;
-            this.label3.ForeColor = System.Drawing.Color.White;
-            this.label3.Location = new System.Drawing.Point(78, 189);
+            this.label3.ForeColor = System.Drawing.Color.Indigo;
+            this.label3.Location = new System.Drawing.Point(8, 188);
             this.label3.Name = "label3";
             this.label3.Size = new System.Drawing.Size(52, 13);
             this.label3.TabIndex = 12;
@@ -132,9 +134,9 @@ namespace Loginpage
             this.panel1.Controls.Add(this.labclear);
             this.panel1.Controls.Add(this.txtpass);
             this.panel1.Controls.Add(this.txtname);
-            this.panel1.Location = new System.Drawing.Point(2, 82);
+            this.panel1.Location = new System.Drawing.Point(26, 61);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(389, 331);
+            this.panel1.Size = new System.Drawing.Size(235, 361);
             this.panel1.TabIndex = 14;
             this.panel1.Paint += new System.Windows.Forms.PaintEventHandler(this.panel1_Paint);
             // 
@@ -143,15 +145,15 @@ namespace Loginpage
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.White;
-            this.BackgroundImage = global::Loginpage.Properties.Resources.blackandwhitephoto04;
-            this.ClientSize = new System.Drawing.Size(788, 524);
+            this.BackgroundImage = global::Loginpage.Properties.Resources._8776;
+            this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
+            this.ClientSize = new System.Drawing.Size(861, 529);
             this.Controls.Add(this.panel1);
             this.ForeColor = System.Drawing.Color.White;
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
             this.MaximizeBox = false;
             this.MinimizeBox = false;
             this.Name = "Form1";
-            this.Text = "login";
             this.Load += new System.EventHandler(this.Form1_Load);
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();

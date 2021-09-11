@@ -83,6 +83,26 @@ namespace Loginpage.Properties {
         /// <summary>
         ///   Looks up a localized resource of type System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _8776 {
+            get {
+                object obj = ResourceManager.GetObject("8776", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _9062 {
+            get {
+                object obj = ResourceManager.GetObject("9062", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Looks up a localized resource of type System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap _93_930064_15_excellent_hd_gradient_wallpapers_data_src {
             get {
                 object obj = ResourceManager.GetObject("93-930064_15-excellent-hd-gradient-wallpapers-data-src", resourceCulture);

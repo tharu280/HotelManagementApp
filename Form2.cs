@@ -29,7 +29,25 @@ namespace Loginpage
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            new Form3().Show();
+            new Checkin().Show();
+            this.Hide();
+        }
+
+        private void btnlogout_Click(object sender, EventArgs e)
+        {
+            new Form1().Show();
+            this.Hide();
+        }
+
+        private void btncheckout_Click(object sender, EventArgs e)
+        {
+            new Checkout().Show();
+            this.Hide();
+        }
+
+        private void btnupdate_Click(object sender, EventArgs e)
+        {
+            new Clientupdate().Show();
             this.Hide();
         }
     }

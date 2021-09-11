@@ -148,11 +148,14 @@
   <data name="png-clipart-computer-icons-password-login-user-padlock-miscellaneous-christianity" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\png-clipart-computer-icons-password-login-user-padlock-miscellaneous-christianity.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="silver-glow-29587-1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\silver-glow-29587-1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="blackandwhitephoto04" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\blackandwhitephoto04.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="silver-glow-29587-1920x1080" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\silver-glow-29587-1920x1080.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="gray-dark-gradation-blur-wallpaper-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\gray-dark-gradation-blur-wallpaper-preview1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="966-9665493_my-profile-icon-blank-profile-image-circle1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\966-9665493_my-profile-icon-blank-profile-image-circle1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -166,7 +169,10 @@
   <data name="images" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\images.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="gray-dark-gradation-blur-wallpaper-preview1" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\gray-dark-gradation-blur-wallpaper-preview1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="8776" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\8776.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="9062" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\9062.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

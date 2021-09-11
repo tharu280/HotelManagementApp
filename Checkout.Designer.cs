@@ -1,7 +1,7 @@
 ﻿
 namespace Loginpage
 {
-    partial class Form3
+    partial class Checkout
     {
         /// <summary>
         /// Required designer variable.

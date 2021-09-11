@@ -61,6 +61,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Checkin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Checkin.Designer.cs">
+      <DependentUpon>Checkin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Clientupdate.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Clientupdate.Designer.cs">
+      <DependentUpon>Clientupdate.cs</DependentUpon>
+    </Compile>
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -73,11 +85,11 @@
     <Compile Include="Form2.Designer.cs">
       <DependentUpon>Form2.cs</DependentUpon>
     </Compile>
-    <Compile Include="Form3.cs">
+    <Compile Include="Checkout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Form3.Designer.cs">
-      <DependentUpon>Form3.cs</DependentUpon>
+    <Compile Include="Checkout.Designer.cs">
+      <DependentUpon>Checkout.cs</DependentUpon>
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
@@ -172,6 +184,12 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="Resources\gray-dark-gradation-blur-wallpaper-preview1.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8776.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\9062.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
