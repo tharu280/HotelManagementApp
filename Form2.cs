@@ -55,5 +55,24 @@ namespace Loginpage
         {
            
         }
+
+        private void button1_Click_2(object sender, EventArgs e)
+        {
+            string constr = @"Data Source=(LocalDB)\MSSQLLocalDB;AttachDbFilename=E:\Drawings\ref\HotelDatabase\hotelManagement.mdf;Integrated Security=True;Connect Timeout=30 ";
+            SqlConnection con = new SqlConnection(constr);
+            con.Open();
+            string query = "SELECT COUNT(*) FROM client_info";
+            SqlCommand cmd = new SqlCommand(query, con);
+            int count = (int)cmd.ExecuteScalar();
+            label1.Visible = true;
+            label1.Text =" "+count+" rooms are occupied at the moment ";
+
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }
