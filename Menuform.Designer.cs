@@ -49,7 +49,7 @@ namespace Loginpage
             this.btncheckin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btncheckin.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncheckin.ForeColor = System.Drawing.Color.White;
-            this.btncheckin.Location = new System.Drawing.Point(44, 244);
+            this.btncheckin.Location = new System.Drawing.Point(44, 225);
             this.btncheckin.Name = "btncheckin";
             this.btncheckin.Size = new System.Drawing.Size(139, 31);
             this.btncheckin.TabIndex = 0;
@@ -65,7 +65,7 @@ namespace Loginpage
             this.btncheckout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btncheckout.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btncheckout.ForeColor = System.Drawing.Color.White;
-            this.btncheckout.Location = new System.Drawing.Point(44, 320);
+            this.btncheckout.Location = new System.Drawing.Point(44, 301);
             this.btncheckout.Name = "btncheckout";
             this.btncheckout.Size = new System.Drawing.Size(139, 31);
             this.btncheckout.TabIndex = 1;
@@ -81,7 +81,7 @@ namespace Loginpage
             this.btnupdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.btnupdate.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.btnupdate.ForeColor = System.Drawing.Color.White;
-            this.btnupdate.Location = new System.Drawing.Point(44, 405);
+            this.btnupdate.Location = new System.Drawing.Point(44, 386);
             this.btnupdate.Name = "btnupdate";
             this.btnupdate.Size = new System.Drawing.Size(139, 31);
             this.btnupdate.TabIndex = 2;
@@ -126,7 +126,7 @@ namespace Loginpage
             this.buttonstatus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonstatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.buttonstatus.ForeColor = System.Drawing.Color.White;
-            this.buttonstatus.Location = new System.Drawing.Point(44, 160);
+            this.buttonstatus.Location = new System.Drawing.Point(44, 141);
             this.buttonstatus.Name = "buttonstatus";
             this.buttonstatus.Size = new System.Drawing.Size(139, 31);
             this.buttonstatus.TabIndex = 4;
