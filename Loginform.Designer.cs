@@ -1,7 +1,7 @@
 ﻿
 namespace Loginpage
 {
-    partial class Form1
+    partial class Loginform
     {
         /// <summary>
         /// Required designer variable.

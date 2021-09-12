@@ -10,9 +10,9 @@ using System.Windows.Forms;
 using System.Data.SqlClient;
 namespace Loginpage
 {
-    public partial class Form2 : Form
+    public partial class Menuform : Form
     {
-        public Form2()
+        public Menuform()
         {
             InitializeComponent();
         }
@@ -29,13 +29,13 @@ namespace Loginpage
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            new Checkin().Show();
+            new Checkinform().Show();
             this.Hide();
         }
 
         private void btnlogout_Click(object sender, EventArgs e)
         {
-            new Form1().Show();
+            new Loginform().Show();
             this.Hide();
         }
 
@@ -64,13 +64,22 @@ namespace Loginpage
             string query = "SELECT COUNT(*) FROM client_info";
             SqlCommand cmd = new SqlCommand(query, con);
             int count = (int)cmd.ExecuteScalar();
-            label1.Visible = true;
-            label1.Text =" "+count+" rooms are occupied at the moment ";
-
+            int free_count = 100 - count;
+            statustopiclabel.Visible = true;
+            statustopiclabel.Text = "CURRENT STATUS";
+            labelstatus1.Visible = true;
+            labelstatus2.Visible = true;
+            labelstatus1.Text =" "+count+" rooms are occupied at the moment ";
+            labelstatus2.Text = "" + free_count + " rooms are free at the moment";
 
         }
 
         private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void statustopiclabel_Click(object sender, EventArgs e)
         {
 
         }

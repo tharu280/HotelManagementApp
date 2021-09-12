@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Loginpage
 {
-    public partial class Form1 : Form
+    public partial class Loginform : Form
     {
-        public Form1()
+        public Loginform()
         {
             InitializeComponent();
         }
@@ -31,7 +31,7 @@ namespace Loginpage
         {
             if (txtname.Text == "nsbm" && txtpass.Text == "1111")
             {
-                new Form2().Show();
+                new Menuform().Show();
                 this.Hide();
             }
             else { MessageBox.Show("The Password or Username you entered is incorrect,Please try again");

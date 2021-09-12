@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Loginpage
 {
-    public partial class Checkin : Form
+    public partial class Checkinform : Form
     {
-        public Checkin()
+        public Checkinform()
         {
             InitializeComponent();
         }

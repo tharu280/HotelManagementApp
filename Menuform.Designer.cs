@@ -1,7 +1,7 @@
 ﻿
 namespace Loginpage
 {
-    partial class Form2
+    partial class Menuform
     {
         /// <summary>
         /// Required designer variable.
@@ -34,14 +34,16 @@ namespace Loginpage
             this.btnupdate = new System.Windows.Forms.Button();
             this.btnlogout = new System.Windows.Forms.Button();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.button1 = new System.Windows.Forms.Button();
-            this.label1 = new System.Windows.Forms.Label();
+            this.buttonstatus = new System.Windows.Forms.Button();
+            this.labelstatus1 = new System.Windows.Forms.Label();
+            this.labelstatus2 = new System.Windows.Forms.Label();
+            this.statustopiclabel = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btncheckin
             // 
-            this.btncheckin.BackColor = System.Drawing.Color.MediumPurple;
+            this.btncheckin.BackColor = System.Drawing.Color.Indigo;
             this.btncheckin.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncheckin.FlatAppearance.BorderSize = 0;
             this.btncheckin.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -57,7 +59,7 @@ namespace Loginpage
             // 
             // btncheckout
             // 
-            this.btncheckout.BackColor = System.Drawing.Color.MediumPurple;
+            this.btncheckout.BackColor = System.Drawing.Color.Indigo;
             this.btncheckout.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btncheckout.FlatAppearance.BorderSize = 0;
             this.btncheckout.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -73,7 +75,7 @@ namespace Loginpage
             // 
             // btnupdate
             // 
-            this.btnupdate.BackColor = System.Drawing.Color.MediumPurple;
+            this.btnupdate.BackColor = System.Drawing.Color.Indigo;
             this.btnupdate.Cursor = System.Windows.Forms.Cursors.Hand;
             this.btnupdate.FlatAppearance.BorderSize = 0;
             this.btnupdate.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
@@ -106,7 +108,7 @@ namespace Loginpage
             // panel1
             // 
             this.panel1.BackColor = System.Drawing.Color.WhiteSmoke;
-            this.panel1.Controls.Add(this.button1);
+            this.panel1.Controls.Add(this.buttonstatus);
             this.panel1.Controls.Add(this.btncheckout);
             this.panel1.Controls.Add(this.btncheckin);
             this.panel1.Controls.Add(this.btnlogout);
@@ -116,34 +118,60 @@ namespace Loginpage
             this.panel1.Size = new System.Drawing.Size(202, 594);
             this.panel1.TabIndex = 5;
             // 
-            // button1
+            // buttonstatus
             // 
-            this.button1.BackColor = System.Drawing.Color.MediumPurple;
-            this.button1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.button1.FlatAppearance.BorderSize = 0;
-            this.button1.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
-            this.button1.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.button1.ForeColor = System.Drawing.Color.White;
-            this.button1.Location = new System.Drawing.Point(44, 160);
-            this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(139, 31);
-            this.button1.TabIndex = 4;
-            this.button1.Text = "Check status";
-            this.button1.UseVisualStyleBackColor = false;
-            this.button1.Click += new System.EventHandler(this.button1_Click_2);
+            this.buttonstatus.BackColor = System.Drawing.Color.Indigo;
+            this.buttonstatus.Cursor = System.Windows.Forms.Cursors.Hand;
+            this.buttonstatus.FlatAppearance.BorderSize = 0;
+            this.buttonstatus.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
+            this.buttonstatus.Font = new System.Drawing.Font("Microsoft Sans Serif", 9.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.buttonstatus.ForeColor = System.Drawing.Color.White;
+            this.buttonstatus.Location = new System.Drawing.Point(44, 160);
+            this.buttonstatus.Name = "buttonstatus";
+            this.buttonstatus.Size = new System.Drawing.Size(139, 31);
+            this.buttonstatus.TabIndex = 4;
+            this.buttonstatus.Text = "Check status";
+            this.buttonstatus.UseVisualStyleBackColor = false;
+            this.buttonstatus.Click += new System.EventHandler(this.button1_Click_2);
             // 
-            // label1
+            // labelstatus1
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.Transparent;
-            this.label1.Location = new System.Drawing.Point(212, 30);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(0, 13);
-            this.label1.TabIndex = 6;
-            this.label1.Visible = false;
-            this.label1.Click += new System.EventHandler(this.label1_Click);
+            this.labelstatus1.AutoSize = true;
+            this.labelstatus1.BackColor = System.Drawing.Color.Transparent;
+            this.labelstatus1.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelstatus1.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.labelstatus1.Location = new System.Drawing.Point(218, 73);
+            this.labelstatus1.Name = "labelstatus1";
+            this.labelstatus1.Size = new System.Drawing.Size(0, 20);
+            this.labelstatus1.TabIndex = 6;
+            this.labelstatus1.Visible = false;
+            this.labelstatus1.Click += new System.EventHandler(this.label1_Click);
             // 
-            // Form2
+            // labelstatus2
+            // 
+            this.labelstatus2.AutoSize = true;
+            this.labelstatus2.BackColor = System.Drawing.Color.Transparent;
+            this.labelstatus2.Font = new System.Drawing.Font("MS Reference Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.labelstatus2.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(64)))), ((int)(((byte)(0)))), ((int)(((byte)(64)))));
+            this.labelstatus2.Location = new System.Drawing.Point(218, 106);
+            this.labelstatus2.Name = "labelstatus2";
+            this.labelstatus2.Size = new System.Drawing.Size(0, 20);
+            this.labelstatus2.TabIndex = 7;
+            this.labelstatus2.Visible = false;
+            // 
+            // statustopiclabel
+            // 
+            this.statustopiclabel.AutoSize = true;
+            this.statustopiclabel.BackColor = System.Drawing.Color.Transparent;
+            this.statustopiclabel.Font = new System.Drawing.Font("Microsoft Sans Serif", 18F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.statustopiclabel.Location = new System.Drawing.Point(217, 29);
+            this.statustopiclabel.Name = "statustopiclabel";
+            this.statustopiclabel.Size = new System.Drawing.Size(0, 29);
+            this.statustopiclabel.TabIndex = 8;
+            this.statustopiclabel.Visible = false;
+            this.statustopiclabel.Click += new System.EventHandler(this.statustopiclabel_Click);
+            // 
+            // Menuform
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -151,10 +179,12 @@ namespace Loginpage
             this.BackgroundImage = global::Loginpage.Properties.Resources._9062;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(861, 529);
-            this.Controls.Add(this.label1);
+            this.Controls.Add(this.statustopiclabel);
+            this.Controls.Add(this.labelstatus2);
+            this.Controls.Add(this.labelstatus1);
             this.Controls.Add(this.panel1);
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.FixedSingle;
-            this.Name = "Form2";
+            this.Name = "Menuform";
             this.Load += new System.EventHandler(this.Form2_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
@@ -169,7 +199,9 @@ namespace Loginpage
         private System.Windows.Forms.Button btnupdate;
         private System.Windows.Forms.Button btnlogout;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.Button buttonstatus;
+        private System.Windows.Forms.Label labelstatus1;
+        private System.Windows.Forms.Label labelstatus2;
+        private System.Windows.Forms.Label statustopiclabel;
     }
 }
