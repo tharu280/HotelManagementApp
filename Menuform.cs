@@ -71,6 +71,8 @@ namespace Loginpage
             labelstatus2.Visible = true;
             labelstatus1.Text =" "+count+" rooms are occupied at the moment ";
             labelstatus2.Text = "" + free_count + " rooms are free at the moment";
+            
+            
 
         }
 
