@@ -29,7 +29,7 @@ namespace Loginpage
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            new Checkin().Show();
+            new ClientCheckin().Show();
             this.Hide();
         }
 
@@ -41,7 +41,7 @@ namespace Loginpage
 
         private void btncheckout_Click(object sender, EventArgs e)
         {
-            new Checkout().Show();
+            new     ClientCheckout().Show();
             this.Hide();
         }
 

@@ -61,17 +61,17 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Chcekout.cs">
+    <Compile Include="ClientCheckin.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Chcekout.Designer.cs">
-      <DependentUpon>Chcekout.cs</DependentUpon>
+    <Compile Include="ClientCheckin.Designer.cs">
+      <DependentUpon>ClientCheckin.cs</DependentUpon>
     </Compile>
-    <Compile Include="Checkin.cs">
+    <Compile Include="ClientCheckout.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Checkin.Designer.cs">
-      <DependentUpon>Checkin.cs</DependentUpon>
+    <Compile Include="ClientCheckout.Designer.cs">
+      <DependentUpon>ClientCheckout.cs</DependentUpon>
     </Compile>
     <Compile Include="Clientupdate.cs">
       <SubType>Form</SubType>
@@ -93,12 +93,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="Chcekout.resx">
-      <DependentUpon>Chcekout.cs</DependentUpon>
-    </EmbeddedResource>
-    <EmbeddedResource Include="Checkin.resx">
-      <DependentUpon>Checkin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Loginform.resx">
       <DependentUpon>Loginform.cs</DependentUpon>
     </EmbeddedResource>
