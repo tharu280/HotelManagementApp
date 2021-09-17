@@ -61,6 +61,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Chcekout.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Chcekout.Designer.cs">
+      <DependentUpon>Chcekout.cs</DependentUpon>
+    </Compile>
     <Compile Include="Checkin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -85,14 +91,11 @@
     <Compile Include="Menuform.Designer.cs">
       <DependentUpon>Menuform.cs</DependentUpon>
     </Compile>
-    <Compile Include="Checkout.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Checkout.Designer.cs">
-      <DependentUpon>Checkout.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Chcekout.resx">
+      <DependentUpon>Chcekout.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Checkin.resx">
       <DependentUpon>Checkin.cs</DependentUpon>
     </EmbeddedResource>

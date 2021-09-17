@@ -29,7 +29,7 @@ namespace Loginpage
 
         private void button1_Click_1(object sender, EventArgs e)
         {
-            new Checkinform().Show();
+            new Checkin().Show();
             this.Hide();
         }
 

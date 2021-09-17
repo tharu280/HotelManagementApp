@@ -1,7 +1,7 @@
 ﻿
 namespace Loginpage
 {
-    partial class Checkinform
+    partial class Checkin
     {
         /// <summary>
         /// Required designer variable.
@@ -31,12 +31,12 @@ namespace Loginpage
         {
             this.SuspendLayout();
             // 
-            // Checkinform
+            // Checkin
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Name = "Checkinform";
+            this.Name = "Checkin";
             this.ResumeLayout(false);
 
         }
