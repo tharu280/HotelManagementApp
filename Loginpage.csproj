@@ -61,12 +61,6 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="ClientCheckin.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="ClientCheckin.Designer.cs">
-      <DependentUpon>ClientCheckin.cs</DependentUpon>
-    </Compile>
     <Compile Include="ClientCheckout.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -93,9 +87,6 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <EmbeddedResource Include="ClientCheckin.resx">
-      <DependentUpon>ClientCheckin.cs</DependentUpon>
-    </EmbeddedResource>
     <EmbeddedResource Include="Loginform.resx">
       <DependentUpon>Loginform.cs</DependentUpon>
     </EmbeddedResource>

@@ -16,7 +16,7 @@ namespace Loginpage
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Loginform());
+            Application.Run(new ClientCheckin());
         }
     }
 }
